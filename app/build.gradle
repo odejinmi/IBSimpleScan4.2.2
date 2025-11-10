@@ -28,7 +28,9 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':IBScanCommon')
+    implementation 'com.github.odejinmi:IBScanCommon:1.0.0'
+//    implementation 'com.github.odejinmi:IBSimpleScan4.2.2:1.0.0'
+//    implementation project(path: ':IBScanCommon')
     implementation project(path: ':IBScanUltimate')
     implementation 'androidx.legacy:legacy-support-core-utils:1.0.0'
 }
